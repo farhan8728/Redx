@@ -297,7 +297,7 @@
   }
   .herotwo{
    
-    width: 80vh;
+    width: 70vh;
   }
   #two{
     margin-top: -35px !important;
@@ -311,9 +311,10 @@
     text-align: center;
   }
   .national{
-    font-size: 38px !important;
+    font-size: 24px !important;
     padding-top: 200px;
     color: #000;
+    padding-right: 250px !important;
     font-weight: bolder;
   }
   .areas{
@@ -358,6 +359,8 @@
   }
   #daraz{
     margin-top: 2px;
+    width: 100px;
+    margin-left: 15px;
   }
   #topen{
     margin-top: 25px;
