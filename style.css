@@ -297,7 +297,7 @@
   }
   .herotwo{
    
-    width: 70vh;
+    width: 50vh;
   }
   #two{
     margin-top: -35px !important;
@@ -314,7 +314,7 @@
     font-size: 24px !important;
     padding-top: 200px;
     color: #000;
-    padding-right: 250px !important;
+    /* padding-right: 20px !important; */
     font-weight: bolder;
   }
   .areas{
