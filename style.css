@@ -296,8 +296,8 @@
     width: auto;
   }
   .herotwo{
-   
-    width: 50vh;
+    background-position: cover;
+    width: auto;
   }
   #two{
     margin-top: -35px !important;
