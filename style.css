@@ -381,4 +381,7 @@
   .deliveryarea{
     margin-right: 185px !important;
   }
+  #call{
+    display: none;
+  }
 }
