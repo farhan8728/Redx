@@ -302,16 +302,14 @@
   #two{
     margin-top: -35px !important;
   }
-  /* #daraz{
-    margin-top: -10px !important;
-  } */
+  
   .card{
     display: block;
     margin: auto;
     text-align: center;
   }
   .national{
-    font-size: 24px !important;
+    font-size: 40px !important;
     padding-top: 200px;
     color: #000;
     /* padding-right: 20px !important; */
@@ -370,5 +368,17 @@
   }
   .two{
     opacity: 1 ;
+  }
+  #formone{
+    width: auto !important;
+  }
+  .pickuparea{
+    margin-left: -195px;
+  }
+  #formtwo{
+    width: auto !important;
+  }
+  .deliveryarea{
+    margin-right: 185px !important;
   }
 }
