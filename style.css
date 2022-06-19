@@ -134,7 +134,9 @@
   margin-top: 35px;
 }
 
-
+.provide{
+  background-color: #F5F5F5;
+}
 
 .provide h1{
   text-align: center;
@@ -142,6 +144,11 @@
 
 .card{
   border: none !important;
+}
+
+.weight,
+.selling{
+  font-weight: 700;
 }
 
 
@@ -158,14 +165,7 @@
   text-align: center;
 }
 
-.map{
-  width: ;
-  height: 100vh;
-  background-color: #000;
-}
-.map .image img{
-  margin-left: 40px;
-}
+
 .inputone{
   width: 300px !important;
 
@@ -200,7 +200,9 @@
 .details{
   color: red;
 }
-
+.calculator{
+  background-color: #F5F5F5;
+}
 .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
@@ -287,8 +289,13 @@
   font-size: 12px;
 }
 
+#number{
+  color: red ;
+}
 
-
+#number{
+  display: none;
+}
 
 @media screen and (max-width:1000px){
   .herothree{
@@ -370,18 +377,47 @@
     opacity: 1 ;
   }
   #formone{
-    width: auto !important;
+    width: 25% !important;
+    margin-top: -45px;
+    margin-left: 230px;
   }
   .pickuparea{
     margin-left: -195px;
+    font-weight: 700 !important;
   }
   #formtwo{
-    width: auto !important;
+    width: 25% !important;
+    margin-top: -45px;
+    margin-left: 230px;
   }
   .deliveryarea{
     margin-right: 185px !important;
+    font-weight: bolder;
   }
   #call{
     display: none;
+  }
+  #number{
+    display: block;
+    margin-top: -24px;
+    margin-left: 60px;
+  }
+  .inputone{
+    width:260px !important;
+  }
+  .weight{
+    font-weight: bolder;
+    margin-left: -185px;
+  }
+  #inputone{
+    margin-left: -85px;
+  }
+  .inputtwo{
+    width: 260px !important;
+    margin-left: -85px ;
+  }
+  .selling{
+    font-weight: bolder;
+    margin-left: -85px;
   }
 }
