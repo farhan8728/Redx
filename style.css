@@ -92,7 +92,7 @@
   margin-left: 75px;
 }
 .national{
-  color: #fff;
+  color: #000;
   font-size: bolder;
   text-align: center;
   padding-top: 130px;
@@ -100,7 +100,7 @@
 
 }
 .areas{
-  color: red;
+  color: #BB2D3B;
   padding-left: 270px;
   font-weight: bolder;
 }
@@ -135,7 +135,7 @@
 }
 
 .provide{
-  background-color: #F5F5F5;
+  
 }
 
 .provide h1{
@@ -163,6 +163,7 @@
 }
 .choose{
   text-align: center;
+  
 }
 
 
@@ -297,6 +298,15 @@
   display: none;
 }
 
+.callusfooter{
+  display: none;
+}
+
+.navbar-brand img{
+  width: 80px;
+  margin-left: 50px;
+}
+
 @media screen and (max-width:1000px){
   .herothree{
     margin-left: -15px;
@@ -327,7 +337,6 @@
   }
   .how{
     margin-top: 20px;
-    margin-left: ;
   }
   .get{
     margin-top: 30px;
@@ -341,7 +350,8 @@
   }
   
   .track{
-    margin-left: -130px !important;
+    text-align: center !important;
+    margin-left: -100px;
   }
   .barone{
     display: none;
@@ -419,5 +429,18 @@
   .selling{
     font-weight: bolder;
     margin-left: -85px;
+  }
+  .bi-facebook{
+    opacity: 1;
+   
+  }
+  .bi-linkedin{
+    opacity: 1;
+  }
+  .bi-youtube{
+    opacity: 1;
+  }
+  .callusfooter{
+    display: block;
   }
 }
