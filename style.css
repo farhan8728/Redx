@@ -303,8 +303,8 @@
 }
 
 .navbar-brand img{
-  width: 80px;
-  margin-left: 50px;
+  width: 6.25vw;
+  margin-left: 3.125rem;
 }
 
 @media screen and (max-width:1000px){
